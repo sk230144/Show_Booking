@@ -1,0 +1,41 @@
+.reg-cont {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.reg-cont h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reg-cont form {
+    display: flex;
+    flex-direction: column;
+}
+
+.reg-cont input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.reg-cont input[type="text"],
+.reg-cont input[type="password"] {
+    width: 100%;
+}
+
+.reg-cont input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.reg-cont input[type="submit"]:hover {
+    background-color: #0056b3;
+}

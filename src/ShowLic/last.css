@@ -1,0 +1,79 @@
+.license-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .license-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+ .license-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+ .license-container input[type="text"],
+  input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .license-card {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .data-sec{
+    margin-left: -10px;
+  }
+  .image-sec{
+    margin-left: 320px;
+  }
+  
+  .license-card h3 {
+    margin-top: 0;
+  }
+  
+  .license-card p {
+    margin-bottom: 5px;
+  }
+  .license-card img {
+    /* margin-left: 230px; */
+    width: 90px;
+    border-radius: 50px;
+  }
+
+  

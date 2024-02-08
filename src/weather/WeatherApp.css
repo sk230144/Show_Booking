@@ -1,0 +1,37 @@
+/* WeatherApp.css */
+
+.weather-app {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.weather-info p {
+    margin: 10px 0;
+}
+
+/* Loading spinner animation */
+@keyframes spinner {
+    to { transform: rotate(360deg); }
+}
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #333;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spinner 0.8s linear infinite;
+    margin: 0 auto;
+}

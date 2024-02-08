@@ -1,0 +1,54 @@
+/* Exam.css */
+
+.quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.quiz-container h3 {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.quiz-container input[type='radio'] {
+  margin-right: 5px;
+}
+
+.quiz-container label {
+  color: #444;
+  cursor: pointer;
+}
+
+.quiz-container button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.quiz-container button:hover {
+  background-color: #0056b3;
+}
+
+.quiz-container .quiz-score {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.quiz-container .quiz-score h2 {
+  color: #333;
+}

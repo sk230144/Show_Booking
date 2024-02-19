@@ -1,0 +1,60 @@
+/* src/components/AudioPlayer.css */
+
+/* Audio Player Container */
+.audio-player-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Audio Player Title */
+  .audio-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Audio Controls */
+  .audio-element {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  /* File Input */
+ 
+  
+  /* Custom File Input Button */
+  .file-input {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .custom-file-input-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Play Next Button */
+  .play-next-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .play-next-button:hover {
+    background-color: #218838;
+  }
+  
